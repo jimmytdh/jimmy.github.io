@@ -29,7 +29,27 @@
    <!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
+	<style>
+		.portfolio {
+			font-family: "poppins-bold", sans-serif;
+			background: #d8d8d8;
+			padding: 8px 10px;
+			color: #2b2b2b;
+			margin-bottom: 10px;
+			float: left;
+			cursor: pointer;
+			user-select: none;
+			font-size: 0.7em;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+			margin-right: 10px;
+		}
+		.portfolio:hover {
+			background-color: #b8b8b8;
+			color: #0c53b7;
+		}
 
+	</style>
 </head>
 
 <body id="top">
@@ -225,14 +245,18 @@
 	   					<h4>Cebu South Medical Center</h4>
 	   					<p>As a programmer in a hospital, my primary responsibility is to develop, maintain, and support the hospital's software applications and systems that are used to manage patient records, appointments, and other administrative tasks. I work closely with hospital staff to understand their needs and requirements and develop solutions that improve the efficiency and effectiveness of the hospital's operations.</p>
 						<p>
-							<button type="button">Document Tracking System</button>
-							<button type="button">Vaccine Information Management System</button>
-							<button type="button">COVID-19 Monitoring System</button>
-							<button type="button">Ultrasound Information and Scheduling System</button>
-							<button type="button">Electronic Statement of Account</button>
-							<button type="button">Supply Inventory System</button>
-							<button type="button">Service Request System</button>
+							<a target="_blank" href="https://dohcsmc.site/dts" class="portfolio"><i class="fa fa-star" style="color: #8f7d12"></i> Document Tracking System</a>
+							<a target="_blank" href="https://mis.cvchd7.com/mbfhi" class="portfolio"><i class="fa fa-star" style="color: #8f7d12"></i> MBFHI Portal</a>
+							<a target="_blank" href="#" class="portfolio">CSMC-OPD Queuing System</a>
+							<a target="_blank" href="https://vax.dohcsmc.site" class="portfolio">Vaccine Information Management System</a>
+							<a target="_blank" href="https://dohcsmc.site/covid19" class="portfolio">COVID-19 Monitoring System</a>
+							<a target="_blank" href="https://dohcsmc.site/utz" class="portfolio">Ultrasound Information and Scheduling System</a>
+							<a target="_blank" href="https://dohcsmc.site/esoa" class="portfolio">Electronic Statement of Account</a>
+							<a target="_blank" href="https://dohcsmc.site/supply" class="portfolio">Supply Inventory System</a>
+							<a target="_blank" href="https://dohcsmc.site/srs" class="portfolio">Service Request System</a>
 						</p>
+						<div style="clear: both;"></div>
+						<hr>
 	   				</div>
 	   			</div> <!-- /timeline-block -->
 
@@ -248,11 +272,13 @@
 	   					<h4>Department of Health - Regional Office 7</h4>
 	   					<p>As a programmer in the Department of Health - Regional Office 7, my main responsibility was to design and implement software systems that focused on management information systems such as the Personnel Information System, Document Tracking System, and Online Hospital Referral System. I collaborated closely with health officials and other stakeholders to develop and customize these systems to meet their specific needs and requirements. I also ensured that the software systems were user-friendly and easy to navigate, providing training and technical support as needed.</p>
 						<p>
-							<button type="button">Hospital Referral System</button>
-							<button type="button">DOHRO7 Console</button>
-							<button type="button">PHA-Checkup</button>
-							<button type="button">BHW Information System</button>
+							<a href="https://cvchd7.com/" class="portfolio" target="_blank"><i class="fa fa-star" style="color: #8f7d12"></i> Hospital Referral System</a>
+							<a href="https://tsekap.cvchd7.com/" class="portfolio" target="_blank"><i class="fa fa-star" style="color: #8f7d12"></i> PHA-Checkup</a>
+							<a href="#" class="portfolio" target="_blank">DOHRO7 Console</a>
+							<a href="https://mis.cvchd7.com/bhw" class="portfolio" target="_blank">BHW Information System</a>
 						</p>
+						<div style="clear: both;"></div>
+						<hr>
 	   				</div>
 	   			</div> <!-- /timeline-block -->
 
@@ -267,6 +293,7 @@
 	   				<div class="timeline-content">
 	   					<h4>Cebu Doctor's University Hospital</h4>
 	   					<p>As a web developer in Cebu Doctors' University Hospital, my primary role was to design and develop the hospital's website. I collaborated with hospital staff to identify their needs and requirements and develop a website that provided a seamless user experience for patients, visitors, and staff. I ensured that the website was user-friendly and accessible, with clear navigation and easy-to-find information.</p>
+						<hr>
 	   				</div>
 	   			</div> <!-- /timeline-block -->
 
@@ -520,7 +547,8 @@
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="js/sweetalert.js"></script>
 </body>
 
 </html>
